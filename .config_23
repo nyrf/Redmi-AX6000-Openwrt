@@ -60,3 +60,9 @@ CONFIG_PACKAGE_luci-app-ttyd=y
 # CONFIG_PACKAGE_luci-app-vlmcsd=y
 # CONFIG_PACKAGE_luci-app-upnp=y
 # CONFIG_PACKAGE_luci-app-turboacc=y
+
+
+# AList depends
+CONFIG_PACKAGE_kmod-fuse=y
+CONFIG_PACKAGE_libfuse=y
+CONFIG_PACKAGE_fuse-utils=y
